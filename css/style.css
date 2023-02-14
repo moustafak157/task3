@@ -1,0 +1,64 @@
+header{
+    min-height: 100vh;
+    background: 
+    linear-gradient(rgba(0, 0, 0, 0.6) , rgba(0, 0, 0, 0.6)) , 
+    url(../images/cover.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-top: 150px;
+}
+.navbar{
+    border-bottom: solid 4px orange;
+}
+footer{
+    padding: 40px 0px;
+    background-color: black;
+
+}
+footer p{
+    color: #ccc;
+    text-align: center;
+    margin-top: 30px;
+}
+.footer-nav , .social-nav
+{
+    display: flex;
+    list-style: none;
+}
+.social-nav{
+    float: right;
+}
+.footer-nav li , .social-nav li
+{
+    margin-right: 20px;
+}
+.footer-nav li a , .social-nav li a
+{
+    color: #888;
+    text-decoration: none;
+    display: inline-block;
+    transition: 1s;
+}
+
+.footer-nav li a:hover , .social-nav li a:hover
+{
+    color: white;
+    transform: translateY(4px);
+    
+}
+.face i:hover{
+    color: #1877f2;
+    
+}
+.twi i:hover{
+    color: #1da1f2;
+}
+.tele i:hover{
+    color: #0088cc;
+}
+.wha i:hover{
+    color: #4aae20;
+}
+.insta i:hover{
+    color: #e1306c;
+}
